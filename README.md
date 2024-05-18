@@ -4,7 +4,7 @@ CLI tool to migrate collection schemas on appwrite.
 
 ## Demo
 
-![Youtube](https://www.youtube.com/watch?v=d1UhZmYRSHM)
+[![Youtube Thumbnail](https://img.youtube.com/vi/d1UhZmYRSHM/0.jpg)](https://www.youtube.com/watch?v=d1UhZmYRSHM)
 
 ## Usage
 
