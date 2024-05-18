@@ -1,0 +1,19 @@
+{
+  "name": "@royalzsoftware/appwrite-migration",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A CLI program that helps with migrating database schemas on Appwrite (cloud and selfhosted)",
+  "main": "src/index.js",
+  "files": ["src/*.js"],
+  "bin": "./bin/appwrite-migration.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Alexander Panov <panov@royalzsoftware.de>",
+  "license": "ISC",
+  "dependencies": {
+    "meow": "^13.2.0",
+    "node-appwrite": "^12.0.1"
+  }
+}
