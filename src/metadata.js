@@ -41,5 +41,5 @@ async function createMetadata(migrationClient, databaseId, config) {
 export async function setupMetadataCollection(migrationClient, databaseId) {
     await migrationClient.databases.createCollection(databaseId, metadataCollectionId, metadataCollectionId);
     await migrationClient.databases.createDatetimeAttribute(databaseId, metadataCollectionId, "schemaVersion", true);
-    await createMetadata(migrationClient, databaseId, {schemaVersion: new Date().toISOString()});
+    await createMetadata(migrationClient, databaseId, {schemaVersion: new Date("1970-01-01").toISOString()});
 }
